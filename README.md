@@ -7,21 +7,11 @@ The increase of harassment in online discussion has become a problem for several
 
 in 2017 the Wikimedia Foundation in collaboration with Jigsaw wanted to analyse Wikipedia talk page discussion in context with personal attacks, toxicity, and aggression. This research, published as: Ex Machina: Personal Attacks Seen at Scale (https://arxiv.org/abs/1610.08914), is the inspiration behind the Dissertation.
 
-REQUIREMENTS
-------------
-This module requires the following modules:
-- `PyTorch`
-- `torchtext`
-- 
+HOW TO USE
+----------
 
-INSTALLATION
-------------
-
-CONFIGURATION
--------------
-
-CREDIT
-------
-
-
-
+There are two notebooks; 
+1) downloading necessary data and pre-processing, `datafile.ipynb` 
+2) baseline model (logistic regression): `baseline.ipynb`
+ 
+For the LSTM model, there is one `.py` that can be executed: `LSTM_model.py`. The python scripts needs access to a data folder with the datasets. 
