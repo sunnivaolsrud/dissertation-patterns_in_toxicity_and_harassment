@@ -10,8 +10,9 @@ in 2017 the Wikimedia Foundation in collaboration with Jigsaw wanted to analyse 
 HOW TO USE
 ----------
 
-There are two notebooks; 
+There are three notebooks; 
 1) downloading necessary data and pre-processing, `datafile.ipynb` 
 2) baseline model (logistic regression): `baseline.ipynb`
+3) Optuna study: hypertuning.ipynb
  
 For the LSTM model, there is one `.py` that can be executed: `LSTM_model.py`. The python scripts needs access to a data folder with the datasets. 
